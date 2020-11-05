@@ -44,8 +44,7 @@
 
         &:not(:first-child) {
             margin-left: 24px;
-        } 
-
+        }
 
         &::before {
             position: relative;
@@ -59,7 +58,7 @@
             margin-right: 8px;
         }
     }
-    
+
     @include e(image) {
         margin-bottom: 48px;
         max-height: 480px;
