@@ -1,9 +1,7 @@
 @import '~igniteui-angular/lib/core/styles/themes/index';
 
 :host {
-    ::ng-deep {
-        .igx-checkbox__label {
-            font-size: 5px;
-        }
+    .igx-checkbox__label {
+        font-size: 1px;
     }
 }
